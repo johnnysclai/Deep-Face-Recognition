@@ -2,6 +2,39 @@
 
 ### Requirements
 
+### Dataset Preparation
+* Training dataset
+```shell
+# Download training datasets (where the faces are aligned) and organize it into the following form:
+└── Deep-Face-Recognition
+    ├── datasets
+    │   ├── glint360k
+    │   │   ├── id_1
+    │   │   │   ├── 1.jpg
+    │   │   │   ├── 2.jpg
+    │   │   │   ├── ...
+    │   │   ├── id_2
+    │   │   │   ├── 1.jpg
+    │   │   │   ├── 2.jpg
+    │   │   │   ├── ...
+    │   │   ├── ...
+    │   ├── ms1mv3
+    │   │   ├── id_1
+    │   │   │   ├── 1.jpg
+    │   │   │   ├── 2.jpg
+    │   │   │   ├── ...
+    │   │   ├── id_2
+    │   │   │   ├── 1.jpg
+    │   │   │   ├── 2.jpg
+    │   │   │   ├── ...
+    │   │   ├── ...
+    │   ├── ...
+    ├── src
+    │   ├── ...
+    ├── ...
+```
+where `id_x` and `x`.jpg can be arbitrary string.
+
 ### Model Zoo
 * Performance
 
